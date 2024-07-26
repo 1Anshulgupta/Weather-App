@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weather.css"/>
+</head>
+<body>
+  <div class="cont">
+    <div class="search">
+        <input type="text" placeholder="Search Location...." value="Mumbai"/>
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <p id="error" style=visibility:hidden>Enter correct city name.</p>
+
+    <div class="image">
+        <img />
+    </div>
+
+    <div class="location">
+        <h3 class="place">Delhi</h3>
+        <h1 class="temp">24°C</h1>
+    </div>
+
+    <div class="weather">
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-temperature-three-quarters"></i></div>
+            <div class="text">
+                <h5>Humidity:</h5>
+                <p id="humidity">42%</p>
+            </div>    
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-wind"></i></div>
+            <div class="text">
+                <h5>Wind-Speed</h5>
+                <p id="Wind">42 kph</p>
+            </div>    
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="fa-solid fa-cloud-sun" id="w"></i></i></div>
+            <div class="text">
+                <h5>Weather:</h5>
+                <p id="weather">clouds</p>
+            </div>    
+        </div>
+    </div>
+  </div>
+ <script src="weather.js"></script>   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bg_image
+ search bar
+current_weather
+temp in c|f
+visibility
+wind
+humidity
+ -->
